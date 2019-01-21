@@ -1,0 +1,2 @@
+# Prolog
+NNTU education, labs
