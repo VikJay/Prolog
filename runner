@@ -1,0 +1,6 @@
+projection([H,W,Z,X]),
+write('set Y len'), read(H), nl,
+write('set X len'), read(W), nl,
+
+Z = 0, X = 0,
+write_area(X, Z, H, W).
