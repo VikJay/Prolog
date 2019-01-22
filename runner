@@ -1,6 +1,13 @@
-projection([H,W,Z,X]),
-write('set Y len'), read(H), nl,
-write('set X len'), read(W), nl,
+/*write('set Y len'), read(Height), nl,
+write('set X len'), read(Width), nl,
+write('set lifetime for foxes'), read(FoxesLifetime), nl,
+write('set lifetime for chicks'), read(ChickenLifetime), nl,
+write('set ovultime for foxes'), read(FoxesOvultime), nl,
+write('set ovultime for chicks'), read(ChickenOvultime), nl,
+
 
 Z = 0, X = 0,
-write_area(X, Z, H, W).
+write_area(X, Z, H, W).*/
+
+A = 'C', B = 'M', C = 2, D = 11, E = [0|0],
+object(A,B,C,D,E).
